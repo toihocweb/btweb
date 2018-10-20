@@ -1,0 +1,41 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #F5F5F5;
+  padding: 20px;
+  color: #CD5C5C; }
+
+.bt {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+  transform-origin: 0% 50%; }
+
+.animation-area {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block; }
+
+.animation-area:hover.animation-area::after {
+  opacity: 1;
+  transform: scaleY(1); }
+
+.animation-area::after {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transform: scaleY(0);
+  background: red;
+  opacity: 0;
+  transition: all 0.3s;
+  transform-origin: 0% 100%; }
+
+.bg-gradient::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.2) 50%, transparent 100%); }
+
+.bt:hover {
+  transform: translate(4px, 5px) scale(1.1); }
