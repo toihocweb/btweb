@@ -5,6 +5,9 @@
   padding: 20px;
   color: #CD5C5C; }
 
+.animation-boy {
+  margin-top: 10px; }
+
 .bt {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 30px;
@@ -70,6 +73,3 @@
 
 .animation-boy:hover.animation-boy::before {
   transform: scaleY(1); }
-
-.animation-boy {
-  margin-top: 10px; }
