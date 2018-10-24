@@ -6,6 +6,7 @@ $(document).ready(function(){
             $('.light').attr('src',"img/pic_bulbon.gif");
             $('.toggle').text('Tắt')
             $('.toggle').css('background' , '#00BCD4');
+            $('.toggle').css('transition' , 'all 0.5s');
         }else{
             $('.light').attr('src',"img/pic_bulboff.gif");
             $('.toggle').text('Bật')
