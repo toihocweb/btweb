@@ -77,3 +77,43 @@ button[type="submit"]{
     color: white;
     border-radius: 5px;
 }
+
+.btn-modal{
+    padding: 10px 20px;
+    background: #3498db;
+    display: inline-block;
+    color: white;
+}
+
+.btn-modal:hover{
+    background: #2980b9;
+}
+
+.modal-area{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    max-width: 60%;
+    height: 70vh;
+    background: white;
+    padding: 50px;
+}
+
+.modal-content h2{
+    font-size: 50px;
+
+}
+
+.modal-content p{
+    margin-top: 50px;
+}
+
+
+

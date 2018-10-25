@@ -22,4 +22,20 @@ $(document).ready(function(){
         
     });
 
+    $('.btn-modal').click(function (e) { 
+        e.preventDefault();
+        $('.modal-area').fadeIn().css("display" , "flex");
+    });
+
+    $('.modal-area').click(function (e) {   
+        e.preventDefault();
+        $('.modal-area').fadeOut();
+    });
+
+    $('.modal-content').click(function (e) { 
+        e.preventDefault();
+        e.stopPropagation();
+    });
+
+
 })
