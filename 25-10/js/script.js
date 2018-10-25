@@ -11,8 +11,15 @@ $(document).ready(function(){
 
     $('#formlogin').submit(function (e) { 
         e.preventDefault();
+        
         email = $('.email').val()
-        alert('Welcome: ' + email)
+        pass = $('.pass').val()
+        if(email && pass){
+            alert('Welcome: ' + email)
+        }else{
+            alert('Có j đâu mà submit')
+        }
+        
     });
-    
+
 })
