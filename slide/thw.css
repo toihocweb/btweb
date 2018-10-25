@@ -1,0 +1,28 @@
+.thw-slide{
+    max-width: 100%;
+    /* background: red; */
+    overflow: hidden;
+}
+.thw-slide-items{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    width: 2000px
+}
+.thw-item{
+    background: yellowgreen;
+    flex-basis: 33vh;
+    height: 100px;
+}
+
+.direction{
+    flex-basis: 100%;
+}
+
+.prev,.next{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #03A9F4;
+    cursor: pointer;
+}
