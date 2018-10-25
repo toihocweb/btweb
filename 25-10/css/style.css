@@ -25,9 +25,15 @@ a{
 }
 
 #formlogin{
-    box-shadow: 1px 1px 6px -1px #555;
+    /* box-shadow: 1px 1px 6px -1px #555; */
     padding: 20px;
     width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in;
+}
+#formlogin:hover{
+    box-shadow: 0 10px 6px -6px #777;
+    transform: translateY(-3px);
 }
 
 .username,.password{
