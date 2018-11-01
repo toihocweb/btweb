@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+
+    .inner{
+        max-width: 1000px;
+        margin:auto;
+    }
+    header .inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav {
+        background: #555;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+
+    }
+    nav ul a{
+        padding: 20px;
+        /* background: #555; */
+        color: white;
+        transition: all 0.5s ease-out;
+    }
+    nav ul a:hover{
+        background: #333;
+    }
+    @media (max-width:768px){
+       body{background: #555;}
+    }
+
+</style>
+<body>
+    
+    <header>
+        <div class="inner">
+                <div class="logo">
+                    <a href=""><img src="logo.jpg" alt=""></a>
+                </div>
+                <div class="sign-log">
+                    <a class="signin" href="">Sign In</a>
+                    <a class="login" href="">Log In</a>
+                </div>
+        </div>
+
+    </header>
+
+    <nav>
+            <ul>
+                <li><a href="">Hone</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">About Us</a></li>
+
+            </ul>
+    </nav>
+
+    <img src="https://picsum.photos/190/1000" alt="">
+
+</body>
+<script src="myscript.js"></script>
+</html>
