@@ -1,0 +1,55 @@
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background: #555;
+
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    padding: 20px;
+   
+    color: white;
+}
+nav ul a:hover{
+    background: #333;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeIn 1s forwards;
+    z-index: 999;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    70%{
+        opacity: 0.7;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
