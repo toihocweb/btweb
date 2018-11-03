@@ -7,7 +7,9 @@ img{
 
 
 @media (max-width:768px){
-
+    .navbar ul li a{
+        color: white;
+    }
     .togglenav{
         display: block;
     }

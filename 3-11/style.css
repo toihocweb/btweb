@@ -8,8 +8,8 @@
 
     .navbar ul li a{
         padding: 20px;
-        background: #555;
-        color:white;
+        /* background: #555; */
+        color:black;
         transition:  all 0.2s;
     }
 
