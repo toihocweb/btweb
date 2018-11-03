@@ -1,0 +1,119 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #F5F5F5;
+    padding: 20px;
+    color: #CD5C5C;
+}
+
+
+a{
+    color: #333;
+}
+
+.bt {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+    transform-origin: 0% 50%;
+    width: 80%;
+}
+
+.bt h1{
+    margin-bottom: 20px;
+}
+
+#formlogin{
+    /* box-shadow: 1px 1px 6px -1px #555; */
+    padding: 20px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in;
+}
+#formlogin:hover{
+    box-shadow: 0 10px 6px -6px #777;
+    transform: translateY(-3px);
+}
+
+.username,.password{
+    position: relative;
+}
+
+#formlogin label{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    pointer-events: none;
+    transition:  all 0.5s ease-in-out;
+    color: #333;
+}
+#formlogin div{
+    margin-bottom: 20px;
+}
+#formlogin h1{
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #555555;
+;}
+#formlogin input{
+    background: transparent;
+    padding: 5px;
+    border: none;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+#formlogin input:focus ~ label{
+   transform: translateY(-20px);
+   font-size: 70%;
+   color: #CD5C5C;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    background: #CD5C5C;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-modal{
+    padding: 10px 20px;
+    background: #3498db;
+    display: inline-block;
+    color: white;
+}
+
+.btn-modal:hover{
+    background: #2980b9;
+}
+
+.modal-area{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    max-width: 60%;
+    height: 70vh;
+    background: white;
+    padding: 50px;
+}
+
+.modal-content h2{
+    font-size: 50px;
+
+}
+
+.modal-content p{
+    margin-top: 50px;
+}
+
+
+

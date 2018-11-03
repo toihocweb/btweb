@@ -1,0 +1,66 @@
+.logo{
+    width: 200px;
+}
+    .navbar ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar ul li a{
+        padding: 20px;
+        background: #555;
+        color:white;
+        transition:  all 0.2s;
+    }
+
+    .inner{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    header .inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .togglenav{
+        display: none;
+        cursor: pointer;
+    }
+
+    .togglenav:hover .line::before{
+        width: 100%;
+    }
+    .togglenav:hover .line::after{
+        width: 100%;
+    }
+    
+    .togglenav .line{
+        position: relative;
+       margin:10px;
+        
+    }
+    .togglenav .line,.togglenav .line::after,.togglenav .line::before{
+        background: red;
+        width: 20px;
+        height: 3px;
+        transition: all 0.4s ease-out;
+        display: block;
+    }
+
+    .togglenav .line::after{
+        content: '';
+        position: absolute;
+        top: 8px;left: 0;
+        width: 50%;
+        height: 100%;
+    }
+
+    .togglenav .line::before{
+        content: '';
+        position: absolute;
+        bottom: 8px;left: 0;
+        width: 50%;
+        height: 100%;
+    }
+  
