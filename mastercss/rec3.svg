@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" >
+    <style>@keyframes ants{to{stroke-dashoffset: -60px;}}</style>
+<linearGradient id="wow" gradientTransform="rotate(45)">
+    <stop stop-color="#FFCC00" offset='0'></stop>
+    <stop stop-color=" #CC0000" offset="1"></stop>
+</linearGradient>
+<rect  width="100%" height="100%" style="stroke: url(#wow); stroke-width:10px;  fill:none; stroke-dasharray:10px 20px; animation:ants 1s infinite linear;" />\
+</svg>
